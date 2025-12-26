@@ -3,92 +3,69 @@ title: 'Development'
 description: 'Preview changes locally to update your docs'
 ---
 
-<Info>
-  **Prerequisites**:
-  - Node.js version 19 or higher
-  - A docs repository with a `docs.json` file
-</Info>
+# Introduction
 
-Follow these steps to install and run Mintlify on your operating system.
+> Welcome to the new home for your documentation
 
-<Steps>
-<Step title="Install the Mintlify CLI">
+## Setting up
 
-```bash
-npm i -g mint
-```
-</Step>
+Get your documentation site up and running in minutes.
 
-<Step title="Preview locally">
+<Card title="Start here" icon="rocket" href="/quickstart" horizontal>
+  Follow our three step quickstart guide.
+</Card>
 
-Navigate to your docs directory where your `docs.json` file is located, and run the following command:
+## Make it yours
 
-```bash
-mint dev
-```
+Design a docs site that looks great and empowers your users.
 
-A local preview of your documentation will be available at `http://localhost:3000`.
+<Columns cols={2}>
+  <Card title="Edit locally" icon="pen-to-square" href="/development">
+    Edit your docs locally and preview them in real time.
+  </Card>
 
-</Step>
-</Steps>
+  <Card title="Customize your site" icon="palette" href="/essentials/settings">
+    Customize the design and colors of your site to match your brand.
+  </Card>
 
-## Custom ports
+  <Card title="Set up navigation" icon="map" href="/essentials/navigation">
+    Organize your docs to help users find what they need and succeed with your product.
+  </Card>
 
-By default, Mintlify uses port 3000. You can customize the port Mintlify runs on by using the `--port` flag. For example, to run Mintlify on port 3333, use this command:
+  <Card title="API documentation" icon="terminal" href="/api-reference/introduction">
+    Auto-generate API documentation from OpenAPI specifications.
+  </Card>
+</Columns>
 
-```bash
-mint dev --port 3333
-```
+## Create beautiful pages
 
-If you attempt to run Mintlify on a port that's already in use, it will use the next available port:
+Everything you need to create world-class documentation.
 
-```md
-Port 3000 is already in use. Trying 3001 instead.
-```
+<Columns cols={2}>
+  <Card title="Write with MDX" icon="pen-fancy" href="/essentials/markdown">
+    Use MDX to style your docs pages.
+  </Card>
 
-## Mintlify versions
+  <Card title="Code samples" icon="code" href="/essentials/code">
+    Add sample code to demonstrate how to use your product.
+  </Card>
 
-Please note that each CLI release is associated with a specific version of Mintlify. If your local preview does not align with the production version, please update the CLI:
+  <Card title="Images" icon="image" href="/essentials/images">
+    Display images and other media.
+  </Card>
 
-```bash
-npm mint update
-```
+  <Card title="Reusable snippets" icon="recycle" href="/essentials/reusable-snippets">
+    Write once and reuse across your docs.
+  </Card>
+</Columns>
 
-## Validating links
+## Need inspiration?
 
-The CLI can assist with validating links in your documentation. To identify any broken links, use the following command:
+<Card title="See complete examples" icon="stars" href="https://mintlify.com/customers">
+  Browse our showcase of exceptional documentation sites.
+</Card>
 
-```bash
-mint broken-links
-```
 
-## Deployment
+---
 
-If the deployment is successful, you should see the following:
-
-<Frame>
-  <img src="/images/checks-passed.png" alt="Screenshot of a deployment confirmation message that says All checks have passed." style={{ borderRadius: '0.5rem' }} />
-</Frame>
-
-## Code formatting
-
-We suggest using extensions on your IDE to recognize and format MDX. If you're a VSCode user, consider the [MDX VSCode extension](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx) for syntax highlighting, and [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for code formatting.
-
-## Troubleshooting
-
-<AccordionGroup>
-  <Accordion title='Error: Could not load the "sharp" module using the darwin-arm64 runtime'>
-
-    This may be due to an outdated version of node. Try the following:
-    1. Remove the currently-installed version of the CLI: `npm remove -g mint`
-    2. Upgrade to Node v19 or higher.
-    3. Reinstall the CLI: `npm i -g mint`
-  </Accordion>
-
-  <Accordion title="Issue: Encountering an unknown error">
-  
-    Solution: Go to the root of your device and delete the `~/.mintlify` folder. Then run `mint dev` again.
-  </Accordion>
-</AccordionGroup>
-
-Curious about what changed in the latest CLI version? Check out the [CLI changelog](https://www.npmjs.com/package/mintlify?activeTab=versions).
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://acme-83ff5188.mintlify.app/llms.txt
