@@ -1,6 +1,8 @@
-# Mintlify technical writing rule
+---
+title: Mintlify technical writing rule
+description: Project context
+---
 
-## Project context
 
 - This is a documentation project on the Mintlify platform
 - We use MDX files with YAML frontmatter  
