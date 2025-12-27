@@ -1,6 +1,6 @@
 import SwaggerUIClient from "./SwaggerUIClient"
 import Head from "next/head"
-
+ 
 export const meta = {
   title: "httpbin.org API",
   version: "0.9.2"
@@ -17,9 +17,9 @@ export const meta = {
 # httpbin.org API
 
 **Version:** `{meta.version}`  
-**Base URL:** `folder/text`
+**Base URL:** `github.com/QUBUHUB-incs/Projectsite`
 
 A simple HTTP Request & Response Service.
 
 ```bash
-docker run -p 80:80 web4application/gcpr.io
+docker run -p 80:80 https://web4-6d3660.webflow.io/
