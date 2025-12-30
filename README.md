@@ -1,6 +1,6 @@
 ---
-title: ## [essentials](https://acme-83ff5188.mintlify.app)
-site: ## [ai-tools](https://web4-6d3660.webflow.io/docs)
+title: Docs. # [essentials](https://acme-83ff5188.mintlify.app)
+site: page # [ai-tools](https://web4-6d3660.webflow.io/docs)
 description: 
 ---
 
