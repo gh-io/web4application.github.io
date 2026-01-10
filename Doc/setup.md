@@ -1,14 +1,14 @@
 ---
-name: site
+name:
 title: # [essentials](https://acme-83ff5188.mintlify.app)
 layouts: # [ai-tools](https://web4-6d3660.webflow.io/docs)
 description: 
 ---
   
 
-# Documentation 
+# Documentation   
 
-[Claude Code setup](https://acme-83ff5188.mintlify.app/ai-tools/claude-code.md): Configure Claude Code for your documentation workflow
+- [Claude Code setup](https://acme-83ff5188.mintlify.app/ai-tools/claude-code.md): Configure Claude Code for your documentation workflow
 
 - [Cursor setup](https://acme-83ff5188.mintlify.app/ai-tools/cursor.md): Configure Cursor for your documentation workflow
 - [Windsurf setup](https://acme-83ff5188.mintlify.app/ai-tools/windsurf.md): Configure Windsurf for your documentation workflow
@@ -26,31 +26,22 @@ description:
 - [Global Settings](https://acme-83ff5188.mintlify.app/essentials/settings.md): Mintlify gives you complete control over the look and feel of your documentation using the docs.json file
 - [Introduction](https://acme-83ff5188.mintlify.app/index.md): Welcome to the new home for your documentation
 - [Quickstart](https://acme-83ff5188.mintlify.app/quickstart.md): Start building awesome documentation in minutes
----
-## Optional
+
+#Optional
 
 
----
+__
 >
 >tittle: [Documentation](https://mintlify.com/docs)
 contents: [Blog](https://mintlify.com/blog)
 layouts: site
->Description: Markup Syntax and Parser Component
+>Description: Markup Syntax and Parser Components
+__
+				 
+				# *reStructuredTex*
 
 
---- 
-
-    ====================
-    |reStructuredText|
-    ====================
- 
-	
-
-
-
- ## reStructuredText
-
- is an easy-to-read, what-you-see-is-what-you-get
+				 is an easy-to-read, what-you-see-is-what-you-get
 plaintext markup syntax and parser system.  It is useful for in-line
 program documentation (such as Python docstrings), for quickly
 creating simple web pages, and for standalone documents.
@@ -68,9 +59,8 @@ of reStructuredText documents into useful structured data formats.
 See statemachine.py_ for an example of a Python module fully
 documented using reStructuredText.
 
-
-User Documentation
-==================
+# User Documentation
+=======================
 
 - `A ReStructuredText Primer`__ (HTML file, or `text source`__).
 - `Quick reStructuredText`__ (user reference)
@@ -88,7 +78,7 @@ __ docs/user/rst/cheatsheet.rst
 .. _Docutils-users: docs/user/mailing-lists.html#docutils-users
 
 
-Reference Documentation
+#Reference Documentation
 =======================
 
 - `An Introduction to reStructuredText`__
@@ -96,37 +86,41 @@ Reference Documentation
 - `History of reStructuredText`__
 - `reStructuredText Markup Specification`__
 - `reStructuredText Directives`__
-- `reStructuredText Interpreted Text Roles`__
-
-__ docs/ref/rst/introduction.html
-__ docs/ref/rst/introduction.html#goals
-__ docs/ref/rst/history.html
+- `reStructuredText Interpreted Text Roles`
+__ 
+docs/ref/rst/introduction.html
+__ docs/ref/rst/introduction.html/#goals
+__
+docs/ref/rst/history.html
 __ docs/ref/rst/restructuredtext.html
-__ docs/ref/rst/directives.html
-__ docs/ref/rst/roles.html
+__ 
+docs/ref/rst/directives.html
+__ 
+docs/ref/rst/roles.html
 
 
-Developer Documentation
+#Developer Documentation
 =======================
 
 - `A Record of reStructuredText Syntax Alternatives`__
 - `Problems With StructuredText`__
 
-__ docs/dev/rst/alternatives.html
-__ docs/dev/rst/problems.html
+__
+docs/dev/rst/alternatives.html
+__
+docs/dev/rst/problems.html
 
 
-How-To's
---------
+How-To
 
-- `Creating reStructuredText Directives`__
+- `Creating reStructuredTex Directives`__
 - `Creating reStructuredText Interpreted Text Roles`__
 
 __ docs/howto/rst-directives.html
 __ docs/howto/rst-roles.html
 
 
-Try it Online
+#Try it Online
 =============
 
 If you want to try reStructuredText out without downloading Docutils, you
@@ -134,7 +128,7 @@ can play with the "simple online editor for reStructuredText" on
 http://rst.ninjs.org/
 
 
-Testimonials
+#Testimonials
 ============
 
 The following testimonials are excerpts from unsolicited posts to
@@ -142,8 +136,7 @@ mailing lists and the comp.lang.python newsgroup.  Being excerpts,
 there's often context missing, which sometimes tones down the message.
 
 `Ueli Schlaepfer on Doc-SIG, 2002-03-28`__:
-
-__ http://mail.python.org/pipermail/doc-sig/2002-March/002526.html
+http://mail.python.org/pipermail/doc-sig/2002-March/002526.html
 
     I have adopted reST as my tool of choice for producing notes while
     doing lab work (mostly in a matlab environment).  Since then, the
@@ -175,7 +168,8 @@ __ http://mail.python.org/pipermail/python-dev/2002-April/022131.html
 
 `Timothy Delaney on comp.lang.python, 2002-04-03`__:
 
-__ http://mail.python.org/pipermail/python-list/2002-April/096013.html
+___
+http://mail.python.org/pipermail/python-list/2002-April/096013.html
 
     I read through all the reStructuredText docs, comparing the text
     versions to the html versions.  I found the text versions to be
@@ -190,7 +184,8 @@ __ http://mail.python.org/pipermail/python-list/2002-April/096013.html
 
 `Guido van Rossum on Python-Dev, 2002-04-03`__:
 
-__ http://mail.python.org/pipermail/python-dev/2002-April/022212.html
+___
+http://mail.python.org/pipermail/python-dev/2002-April/022212.html
 
     I think that reStructuredText is a good format for marking up
     docstrings; it's probably as good as it gets given the
