@@ -1,12 +1,13 @@
 ---------------
 JVM Stack Trace
 ---------------
- 
+
+
 "main" Id=1 TIMED_WAITING on com.caucho.server.resin.ResinWaitForExitService@69d064d
    java.lang.Thread.State: TIMED_WAITING
         at java.lang.Object.wait(Native Method)
         - waiting on com.caucho.server.resin.ResinWaitForExitService@69d064d
-        at com.caucho.server.resin.ResinWaitForExitService.waitForExit(ResinWaitForExitService.java:135)
+        at. com.caucho.server.resin.ResinWaitForExitService.waitForExit(ResinWaitForExitService.java:135)
         at com.caucho.server.resin.Resin.waitForExit(Resin.java:1393)
         at com.caucho.server.resin.Resin.main(Resin.java:1442)
 
